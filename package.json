@@ -14,7 +14,6 @@
     ]
   ],
   "_from": "cordova-plugin-fcm@latest",
-  "_id": "cordova-plugin-fcm@2.1.2",
   "_inCache": true,
   "_location": "/cordova-plugin-fcm",
   "_nodeVersion": "6.10.0",
@@ -46,10 +45,7 @@
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-fcm",
   "_where": "C:\\wamp\\3.0\\www\\imasto.com.br\\apps-js\\imasto-app\\node_modules",
-  "author": {
-    "name": "Felipe Echanique Torres",
-    "email": "felipe.echanique@gmail.com"
-  },
+  "author": "Felipe Echanique Torres <felipe.echanique@gmail.com>",
   "bugs": {
     "url": "https://github.com/fechanique/cordova-plugin-fcm/issues"
   },
@@ -64,7 +60,6 @@
   },
   "engines": [],
   "englishdoc": "",
-  "gitHead": "037cb5bc6cc17247c46dd433f3440e080f5f1a62",
   "homepage": "https://github.com/fechanique/cordova-plugin-fcm#readme",
   "issue": "",
   "keywords": [
@@ -81,23 +76,20 @@
   ],
   "license": "MIT",
   "maintainers": [
-    {
-      "name": "fechanique",
-      "email": "felipe.echanique@gmail.com"
-    }
+    "fechanique <felipe.echanique@gmail.com>"
   ],
-  "name": "cordova-plugin-fcm",
+  "name": "cordova-plugin-fcm-for-ionic-cloud",
   "optionalDependencies": {},
   "platforms": [
     "android",
     "ios"
   ],
-  "readme": "ERROR: No README data found!",
   "repo": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fechanique/cordova-plugin-fcm.git"
   },
   "scripts": {},
-  "version": "2.1.2"
+  "version": "2.1.2",
+  "main": "index.js"
 }
