@@ -34,18 +34,18 @@ var config = fs.readFileSync("config.xml").toString()
 var name = getValue(config, "name")
 
 if (directoryExists("platforms/ios")) {
-	var path = "GoogleService-Info.plist";
+	var path = "www/GoogleService-Info.plist";
 
     if (fileExists( path )) {
       try {
         var contents = fs.readFileSync(path).toString();
-        fs.writeFileSync("GoogleService-Info.plist", contents)
+        fs.writeFileSync("platforms/ios/" + name + "/Resources/GoogleService-Info.plist", contents)
       } catch(err) {
         process.stdout.write(err);
       }
 
     } else {
-		throw new Error("cordova-plugin-fcm: 'GoogleService-Info.plist' was not found in your Cordova project root folder.")
+		throw new Error("cordova-plugin-fcm-for-ionic-cloud: 'GoogleService-Info.plist' was not found in your Cordova project root folder.")
 	}
 }
 
